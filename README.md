@@ -5,7 +5,7 @@
 https://listed-ecfbf.web.app
 
 
-## Dependencies:-
+## Dependencies
 
 ```
 React
@@ -14,19 +14,18 @@ Axios
 Auth0
 ```
 
-## Install the dependencies:-
+## Install the dependencies
 
 ```
 npm install
 ```
 
-## Start the development server:
+## Start the development server
 
 ```
 npm run serve
 ```
 
-## This will start the development server at http://localhost:127.0.0.1:5173/.
 
 ## Chart Data:-
 
