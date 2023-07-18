@@ -196,7 +196,7 @@ const Login = ({ CheckLocalAuthentication }) => {
       {hideEverything && (
         <>
           <div className={styles.loginContainer}>
-            <div className={styles.left}>Board.</div>
+            <div className={styles.left}></div>
             <div className={styles.right}>
               {account === "LogIn" ? (
                 <div>
