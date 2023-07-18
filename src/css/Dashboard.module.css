@@ -1,0 +1,1805 @@
+.mainContainer {
+  height: calc(100% - 40px);
+  width: calc(100vw - 40px);
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+.dashboardContainer {
+  height: calc(100% - 40px);
+  width: calc(100vw - 40px);
+  display: flex;
+  flex-direction: row;
+}
+.leftDashboard {
+  width: 280px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 0 40px 50px;
+}
+.marginBottom {
+  margin: 0 0 50px 0;
+}
+.itemMarginBottom {
+  margin: 0 0 40px 0;
+}
+.companyName {
+  height: 44px;
+  width: 123px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.navItems {
+  height: 200px;
+  margin: 44px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Item {
+  height: 22px;
+  width: 93px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(170, 170, 170);
+}
+.Item:hover {
+  color: white;
+}
+.navIcon {
+  height: 20.77678680419922px;
+  width: 18px;
+  border-radius: 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin: 0 18px 0 0;
+}
+.iconItemCenter {
+  display: flex;
+  flex-direction: row;
+}
+.alignSidebarNavigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footerItem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(170, 170, 170);
+  height: 17px;
+  width: 150px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.footerItem:hover {
+  color: white;
+}
+.rightDashboard {
+  width: calc(100vw - 280px);
+}
+.detailsContainer {
+  margin: 0 40px;
+}
+.headerDashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.dashboardHeading {
+  height: 29px;
+  width: 138px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.bellIcon {
+  height: 20.000001907348633px;
+  width: 18.000001907348633px;
+  border-radius: 0px;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+.profileIcon {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+.searchBar {
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  padding: 10px;
+}
+.searchBar:focus {
+  outline: 1px solid var(--color-black);
+}
+.centerHeaderItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Card */
+.userDataCards {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.cardData {
+  height: 120px;
+  width: 221.05262756347656px;
+  border-radius: 20px;
+  padding: 25px;
+}
+.cardData:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.revenueCardColor {
+  background-color: #ddefe0;
+}
+.transactionsCardColor {
+  background-color: #f4ecdd;
+}
+.likesCardColor {
+  background-color: #efdada;
+}
+.usersCardColor {
+  background-color: #dee0ef;
+}
+.alignRight {
+  display: flex;
+  justify-content: flex-end;
+}
+.revenuesIcon {
+  height: 24px;
+  width: 26.39999771118164px;
+  color: black;
+}
+.cardTitle {
+  height: 17px;
+  width: 124px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 5px 0;
+}
+.cardAmount {
+  height: 33px;
+  width: 124px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  margin: 0 0 5px 0;
+}
+.chart {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.alignHeading {
+  width: 100px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.graphHeading {
+  height: 22px;
+  width: 93px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/* Pie Chart */
+.alignPieChartCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pieChartContainer {
+  margin: 40px 0;
+}
+.pieChartCardItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pieChartCard {
+  cursor: pointer;
+  height: 256px;
+  width: 470px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 40px;
+}
+.dateInput {
+  height: 20px;
+  width: 97px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+}
+.pieChartHeading {
+  height: 22px;
+  width: 155px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.meetingColor {
+  background-color: #9bdd7c;
+}
+.operationColor {
+  background-color: #6972c4;
+}
+.meetingCard {
+  height: 66px;
+  margin: 0 0 0 8px;
+  border-radius: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.scheduleHeading {
+  height: 17px;
+  width: 300px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+  margin: 0 0 0 8px;
+}
+.scheduleTime {
+  height: 14px;
+  width: 200px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+  margin: 0 0 0 8px;
+}
+.scheduleLocation {
+  height: 14px;
+  width: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+  margin: 0 0 0 8px;
+}
+.scheduleCenter {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.active {
+  height: 22px;
+  width: 104px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.pieChartCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Laptop screen size */
+@media (max-width: 1310px) {
+  .pieChartCard {
+    height: 256px;
+    width: 415px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 20px;
+  }
+  .userDataCards {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+  }
+}
+
+/* Laptop screen size */
+@media (max-width: 1210px) {
+  .leftDashboard {
+    border-radius: 20px;
+  }
+  .navContainer {
+    margin: 60px 0 60px 50px;
+  }
+  .companyName {
+    height: 44px;
+    width: 123px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .navItems {
+    height: 200px;
+    margin: 44px 0 0 0;
+  }
+  .Item {
+    height: 22px;
+    width: 93px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Item:hover {
+    color: white;
+  }
+  .navIcon {
+    height: 20.77678680419922px;
+    width: 18px;
+    margin: 0 18px 0 0;
+  }
+  .iconItemCenter {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignSidebarNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerItem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(170, 170, 170);
+    height: 17px;
+    width: 150px;
+    margin: 10px 0;
+  }
+  .rightDashboard {
+    width: calc(100vw - 280px);
+  }
+  .detailsContainer {
+    margin: 0 40px;
+  }
+  .headerDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  .dashboardHeading {
+    height: 29px;
+    width: 138px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .bellIcon {
+    height: 20.000001907348633px;
+    width: 18.000001907348633px;
+    border-radius: 0px;
+    margin: 0 0 0 30px;
+  }
+  .profileIcon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 30px;
+  }
+  .searchBar {
+    width: 180px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+  }
+  .centerHeaderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Card */
+  .userDataCards {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 35px;
+  }
+  .cardData {
+    height: 120px;
+    width: 180.05262756347656px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .revenuesIcon {
+    height: 24px;
+    width: 26.39999771118164px;
+    color: black;
+  }
+  .cardTitle {
+    height: 17px;
+    width: 124px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .cardAmount {
+    height: 33px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .chart {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .alignHeading {
+    width: 100px;
+    height: 55px;
+  }
+  .graphHeading {
+    height: 22px;
+    width: 93px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  /* Pie Chart */
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pieChartContainer {
+    margin: 20px 0;
+  }
+  .pieChartCardItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pieChartCard {
+    cursor: pointer;
+    height: 256px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  .dateInput {
+    height: 20px;
+    width: 97px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+  }
+  .pieChartHeading {
+    height: 22px;
+    width: 155px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .meetingCard {
+    height: 66px;
+    margin: 0 0 0 8px;
+    border-radius: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .scheduleHeading {
+    height: 17px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    margin: 0 0 0 8px;
+  }
+  .scheduleTime {
+    height: 14px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleLocation {
+    height: 14px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleCenter {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .active {
+    height: 22px;
+    width: 104px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}
+
+/* Laptop screen size */
+@media (max-width: 1170px) {
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+}
+
+/* tablet screen size */
+@media (max-width: 830px) {
+  .navContainer {
+    margin: 60px 0 60px 50px;
+  }
+  .companyName {
+    height: 44px;
+    width: 123px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .navItems {
+    height: 200px;
+    margin: 44px 0 0 0;
+  }
+  .Item {
+    height: 22px;
+    width: 93px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Item:hover {
+    color: white;
+  }
+  .navIcon {
+    height: 20.77678680419922px;
+    width: 18px;
+    margin: 0 18px 0 0;
+  }
+  .iconItemCenter {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignSidebarNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerItem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(170, 170, 170);
+    height: 17px;
+    width: 150px;
+    margin: 10px 0;
+  }
+  .rightDashboard {
+    width: calc(100vw - 280px);
+  }
+  .detailsContainer {
+    margin: 0 40px;
+  }
+  .headerDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  .dashboardHeading {
+    height: 29px;
+    width: 138px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .bellIcon {
+    height: 20.000001907348633px;
+    width: 18.000001907348633px;
+    border-radius: 0px;
+    margin: 0 0 0 30px;
+  }
+  .profileIcon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 30px;
+  }
+  .searchBar {
+    width: 180px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+  }
+  .centerHeaderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Card */
+  .userDataCards {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 35px;
+  }
+  .cardData {
+    height: 120px;
+    width: 215px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .revenuesIcon {
+    height: 24px;
+    width: 26.39999771118164px;
+    color: black;
+  }
+  .cardTitle {
+    height: 17px;
+    width: 124px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .cardAmount {
+    height: 33px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .chart {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .alignHeading {
+    width: 100px;
+    height: 55px;
+  }
+  .graphHeading {
+    height: 22px;
+    width: 93px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  /* Pie Chart */
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+  .pieChartContainer {
+    margin: 20px 0;
+  }
+  .pieChartCardItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pieChartCard {
+    height: 256px;
+    width: 425px;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  .dateInput {
+    height: 20px;
+    width: 97px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+  }
+  .pieChartHeading {
+    height: 22px;
+    width: 155px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .meetingCard {
+    height: 66px;
+    border-radius: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .scheduleHeading {
+    height: 17px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    margin: 0 0 0 8px;
+  }
+  .scheduleTime {
+    height: 14px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleLocation {
+    height: 14px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleCenter {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .active {
+    height: 22px;
+    width: 104px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}
+
+/* tablet screen size */
+@media (max-width: 760px) {
+  .mainContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    margin: 0px;
+    background-color: #f5f5f5;
+  }
+  .dashboardContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 0px 0px;
+  }
+  .leftDashboard {
+    width: 100px;
+    border-radius: 0px;
+    padding: 0px 0 30px 0px;
+  }
+  .itemMarginBottom {
+    margin: 0 0 30px 0;
+  }
+  .navContainer {
+    margin: 0px 0px 0px 5px;
+  }
+  .companyName {
+    height: 44px;
+    width: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .navItems {
+    height: 200px;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Item {
+    height: 20px;
+    width: 20px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(170, 170, 170);
+  }
+  .Item:hover {
+    color: white;
+  }
+  .navIcon {
+    height: 20px;
+    width: 12px;
+    border-radius: 0px;
+    margin: 0 10px 0 0;
+  }
+  .iconItemCenter {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignSidebarNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerItem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(170, 170, 170);
+    height: 17px;
+    width: 150px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .footerItem:hover {
+    color: white;
+  }
+  .rightDashboard {
+    width: calc(100vw - 280px);
+  }
+  .detailsContainer {
+    margin: 0 10px;
+  }
+  .headerDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .dashboardHeading {
+    height: 30px;
+    width: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .bellIcon {
+    height: 20px;
+    width: 18px;
+    border-radius: 0px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .profileIcon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .searchBar {
+    margin: 0 0 0 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .searchBar:focus {
+    outline: 1px solid var(--color-black);
+  }
+  .centerHeaderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Card */
+  .userDataCards {
+    margin: 25px 0 15px 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  .cardData {
+    height: 120px;
+    width: 221.05262756347656px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .cardData:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .alignRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .revenuesIcon {
+    height: 24px;
+    width: 26.39999771118164px;
+    color: black;
+  }
+  .cardTitle {
+    height: 18px;
+    width: 180px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .cardAmount {
+    height: 33px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .chart {
+    background-color: white;
+    margin: 50px 0 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+  }
+  .alignHeading {
+    width: 225px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .graphHeading {
+    height: 22px;
+    width: 93px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  /* Pie Chart */
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-between;
+  }
+  .pieChartContainer {
+    display: flex;
+    margin: 30px 0 30px 10px;
+  }
+  .pieChartCardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pieChartCard {
+    cursor: pointer;
+    height: 320px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+  }
+  .dateInput {
+    height: 20px;
+    margin: 0px 0 0 0;
+    width: 97px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+  }
+  .pieChartHeading {
+    height: 22px;
+    width: 155px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .meetingCard {
+    height: 66px;
+    margin: 0 0 0 8px;
+    border-radius: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .scheduleHeading {
+    height: 17px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 17px;
+    color: #666666;
+    margin: 0 0 0 8px;
+  }
+  .scheduleTime {
+    height: 14px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleLocation {
+    height: 14px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleCenter {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .active {
+    height: 22px;
+    width: 104px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .pieChartCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* tablet screen size */
+@media (max-width: 370px) {
+  .mainContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    margin: 0px;
+    background-color: #f5f5f5;
+  }
+  .dashboardContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 0px 0px;
+  }
+  .leftDashboard {
+    width: 100px;
+    border-radius: 0px;
+    padding: 0px 0 30px 0px;
+  }
+  .itemMarginBottom {
+    margin: 0 0 20px 0;
+  }
+  .navContainer {
+    margin: 0px 0px 0px 5px;
+  }
+  .companyName {
+    height: 44px;
+    width: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .navItems {
+    height: 200px;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Item {
+    height: 20px;
+    width: 20px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(170, 170, 170);
+  }
+  .Item:hover {
+    color: white;
+  }
+  .navIcon {
+    height: 20px;
+    width: 12px;
+    border-radius: 0px;
+    margin: 0 10px 0 0;
+  }
+  .iconItemCenter {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignSidebarNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerItem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(170, 170, 170);
+    height: 17px;
+    width: 150px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .footerItem:hover {
+    color: white;
+  }
+  .rightDashboard {
+    width: calc(100vw - 280px);
+  }
+  .detailsContainer {
+    margin: 0 10px;
+  }
+  .headerDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .dashboardHeading {
+    height: 30px;
+    width: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+  }
+  .bellIcon {
+    height: 20px;
+    width: 18px;
+    border-radius: 0px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .profileIcon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .searchBar {
+    margin: 0 0 0 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .searchBar:focus {
+    outline: 1px solid var(--color-black);
+  }
+  .centerHeaderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Card */
+  .userDataCards {
+    margin: 20px 0 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  .cardData {
+    height: 120px;
+    width: 221.05262756347656px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .cardData:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .alignRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .revenuesIcon {
+    height: 24px;
+    width: 26.39999771118164px;
+    color: black;
+  }
+  .cardTitle {
+    height: 18px;
+    width: 180px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .cardAmount {
+    height: 33px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .chart {
+    background-color: white;
+    margin: 30px 0 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    cursor: pointer;
+  }
+  .alignHeading {
+    width: 225px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .graphHeading {
+    height: 22px;
+    width: 93px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  /* Pie Chart */
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-between;
+  }
+  .pieChartContainer {
+    display: flex;
+    margin: 30px 0 30px 10px;
+  }
+  .pieChartCardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pieChartCard {
+    cursor: pointer;
+    height: 320px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+  }
+  .dateInput {
+    height: 20px;
+    margin: 10px 0 0 0;
+    width: 97px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+  }
+  .pieChartHeading {
+    height: 22px;
+    width: 155px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .meetingCard {
+    height: 66px;
+    margin: 0 0 0 8px;
+    border-radius: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .scheduleHeading {
+    height: 17px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12 px;
+    line-height: 17px;
+    color: #666666;
+    margin: 0 0 0 8px;
+  }
+  .scheduleTime {
+    height: 14px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleLocation {
+    height: 14px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleCenter {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .active {
+    height: 22px;
+    width: 104px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .pieChartCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* tablet screen size */
+@media (max-width: 325px) {
+  .mainContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    margin: 0px;
+    background-color: #f5f5f5;
+  }
+  .dashboardContainer {
+    height: calc(100%);
+    width: calc(100vw);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0 0px 0px;
+  }
+  .leftDashboard {
+    width: 100px;
+    border-radius: 0px;
+    padding: 0px 0 30px 0px;
+  }
+  .itemMarginBottom {
+    margin: 0 0 20px 0;
+  }
+  .navContainer {
+    margin: 0px 0px 0px 5px;
+  }
+  .companyName {
+    height: 44px;
+    width: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .navItems {
+    height: 200px;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Item {
+    height: 20px;
+    width: 20px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(170, 170, 170);
+  }
+  .Item:hover {
+    color: white;
+  }
+  .navIcon {
+    height: 20px;
+    width: 12px;
+    border-radius: 0px;
+    margin: 0 10px 0 0;
+  }
+  .iconItemCenter {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignSidebarNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerItem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(170, 170, 170);
+    height: 17px;
+    width: 150px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .footerItem:hover {
+    color: white;
+  }
+  .rightDashboard {
+    width: calc(100vw - 280px);
+  }
+  .detailsContainer {
+    margin: 0 10px;
+  }
+  .headerDashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .dashboardHeading {
+    height: 30px;
+    width: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  .bellIcon {
+    height: 20px;
+    width: 18px;
+    border-radius: 0px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .profileIcon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+  }
+  .searchBar {
+    margin: 0 0 0 10px;
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .searchBar:focus {
+    outline: 1px solid var(--color-black);
+  }
+  .centerHeaderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Card */
+  .userDataCards {
+    margin: 20px 0 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  .cardData {
+    height: 120px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .cardData:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .alignRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .revenuesIcon {
+    height: 24px;
+    width: 26.39999771118164px;
+    color: black;
+  }
+  .cardTitle {
+    height: 18px;
+    width: 180px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .cardAmount {
+    height: 33px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0 0 5px 0;
+  }
+  .chart {
+    background-color: white;
+    margin: 30px 0 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+    cursor: pointer;
+  }
+  .alignHeading {
+    width: 225px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .graphHeading {
+    height: 22px;
+    width: 93px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  /* Pie Chart */
+  .alignPieChartCards {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-between;
+  }
+  .pieChartContainer {
+    display: flex;
+    margin: 30px 0 30px 10px;
+  }
+  .pieChartCardItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pieChartCard {
+    cursor: pointer;
+    height: 320px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+  }
+  .dateInput {
+    height: 20px;
+    margin: 10px 0 0 0;
+    width: 97px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+  }
+  .pieChartHeading {
+    height: 22px;
+    width: 155px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  .meetingCard {
+    height: 66px;
+    margin: 0 0 0 8px;
+    border-radius: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .scheduleHeading {
+    height: 17px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12 px;
+    line-height: 17px;
+    color: #666666;
+    margin: 0 0 0 8px;
+  }
+  .scheduleTime {
+    height: 14px;
+    width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleLocation {
+    height: 14px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    margin: 0 0 0 8px;
+  }
+  .scheduleCenter {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .active {
+    height: 22px;
+    width: 104px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .pieChartCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
