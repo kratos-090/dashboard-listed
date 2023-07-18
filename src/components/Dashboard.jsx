@@ -118,7 +118,7 @@ const Dashboard = ({ LogOutLocalAuthentication }) => {
                 <ul className={styles.navItems}>
                   <div
                     className={`${styles.companyName} ${styles.marginBottom}`}>
-                    Dashboard
+                    Board.
                   </div>
                   <div className={styles.iconItemCenter}>
                     <img
